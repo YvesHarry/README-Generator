@@ -1,7 +1,7 @@
 // Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateMarkdown = require('./utils/generateMarkdown');
+const generateMarkdown = require('./utils/GenerateMarkdown');
 
 const licenses = ['None', 'MIT', 'BSD', 'GPL', 'Apache']
 
